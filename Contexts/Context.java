@@ -3,7 +3,7 @@ package Contexts;
 import Interfaces.Strategy;
 
 public class Context {
-    private Strategy strategy = null;
+    private Strategy strategy;
 
     public void setStrategy(Strategy strategy){
         this.strategy = strategy;
