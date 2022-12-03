@@ -20,6 +20,8 @@ public class Main {
         System.out.printf("Informe a operação desejada: ");
         String op = sc.next();
 
+        sc.close();
+
         if (op == "s") {
             context.setStrategy(new ConcreteStrategyAdd());
         } else if (op == "sub") {
